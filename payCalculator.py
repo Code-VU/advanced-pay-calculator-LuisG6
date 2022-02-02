@@ -6,7 +6,7 @@ def calculatePay():
         rate = float(input("Enter Rate: ")) 
         total = hrs * rate
 
-        if hrs > 40:
+        if hrs >= 40:
             overTime = hrs * (rate * 1.5)
             print(f"Pay: {overTime}")
         else:
