@@ -12,7 +12,7 @@ def calculatePay():
         else:
             print(f"Pay: {total}")
     except:
-        print("Please input a number")
+        print("Error, please enter numeric input")
     
     # end assignment
 
